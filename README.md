@@ -1,26 +1,22 @@
-Here’s a sample `README.md` file for your air quality prediction project:  
-
----
 
 # Air Quality Prediction
 
-This repository contains a Flask-based web application for predicting air quality in smart cities using regression techniques. The application utilizes advanced machine learning models and a comprehensive dataset to analyze and predict air quality metrics.
+This repository contains a Flask-based web application for predicting air quality of Lucknow city using regression technique named Random Forest. The application utilizes advanced machine learning models and a comprehensive dataset to analyze and predict air quality metrics.
 
 ---
 
 ## Features
 
-- **Predictive Models**: Utilizes Random Forest, Linear, and Decision Tree regression techniques for air quality prediction.
+- **Predictive Models**: Utilizes Random Forest regression technique for air quality prediction.
 - **Data Insights**: Provides visualizations of air quality trends using Matplotlib and Seaborn.
 - **Interactive Web App**: Flask-based interface for users to input data and view predictions.
-- **Scalable Infrastructure**: Cloud-based deployment for efficient training and CI/CD pipelines.
-- **Location-Specific Analysis**: Includes datasets for Pune and Lucknow cities to provide accurate local insights.
+- **Location-Specific Analysis**: Includes datasets of Lucknow cities to provide accurate local insights.
 
 ---
 
 ## Tech Stack
 
-- **Frontend**: React.js
+- **Frontend**: HTML, JavaScript
 - **Backend**: Flask
 - **Libraries/Frameworks**:
   - **Machine Learning**: Scikit-learn
@@ -65,8 +61,7 @@ This repository contains a Flask-based web application for predicting air qualit
 ## Dataset
 
 - **Sources**:  
-  - Air quality monitoring stations dataset (Pune City): **103,205 records**
-  - Air pollutant gases dataset (Lucknow City)  
+  - Air pollutant gases dataset (Lucknow City) : **23000 records** 
 - **Format**: CSV files  
 - **Attributes**: Includes pollutant concentrations, date-time, and location data.
 
@@ -97,23 +92,6 @@ The project provides the following visualizations:
 
 ---
 
-## Folder Structure
-
-```
-air_quality_prediction/
-│
-├── app.py                # Main Flask application
-├── static/               # Static files (CSS, JS, images)
-├── templates/            # HTML templates
-├── models/               # Pretrained regression models
-├── data/                 # Datasets
-├── frontend/             # React frontend code
-├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
-```
-
----
-
 ## Future Enhancements
 
 - Integration of **Google Maps** for interactive location selection.
@@ -124,7 +102,7 @@ air_quality_prediction/
 
 ## Contributors
 
-- [Your Name](https://github.com/your-username) - Developer and Researcher  
+- [Sweta Singh](https://github.com/swetasingh8844) - Developer and Researcher  
 
 ---
 
@@ -133,5 +111,3 @@ air_quality_prediction/
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
 
 ---
-
-Feel free to modify this README file to include additional details or reflect updates in your project.
